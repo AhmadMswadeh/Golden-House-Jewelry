@@ -1,0 +1,249 @@
+/* General Styles */
+body {
+    padding-top: 70px; /* Adjust for fixed navbar */
+    font-family: 'Lora', serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+    color: #333;
+    width: 40px;
+    height: auto;
+    border-radius: 15px;
+}
+
+.nav-link {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #555;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #FFD700; /* Gold color */
+}
+
+/* Carousel Styles */
+.carousel-item img {
+    height: 600px;
+    object-fit: cover;
+}
+
+.carousel-caption h5 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.carousel-caption p {
+    font-size: 1.25rem;
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+}
+/* Contact Us Section */
+.contact-us-section {
+    background-color: #fff;
+    padding: 60px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-us-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact-us-section p {
+    font-size: 1.125rem;
+    color: #666;
+}
+
+.contact-info {
+    padding: 20px;
+    background-color: #f4f4f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.social-icons a {
+    font-size: 1.5rem;
+    margin-right: 10px;
+    color: #666;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #FFC700;
+}
+/* Section Titles */
+.section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: #333;
+}
+
+/* Card Styles */
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+    color: #333;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #666;
+}
+
+.card-price {
+    font-size: 1.25rem;
+    color: #d4af37;
+    /* Gold color */
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.card-img-top {
+    height: 300px;
+    object-fit: cover;
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #FFD700; /* Gold color */
+    border-color: #FFD700;
+    font-size: 1rem;
+    padding: 0.5rem 1.5rem;
+    border-radius: 50px;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #FFC700; /* Slightly darker gold */
+    border-color: #FFC700;
+}
+
+/* Form Styles */
+.form-control {
+    border-radius: 50px;
+    padding: 0.75rem 1.25rem;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+    color: #333;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.form-control:focus {
+    border-color: #FFD700;
+    box-shadow: 0 0 5px rgba(255, 215, 0, 0.5);
+}
+
+.btn-submit {
+    background-color: #FFD700;
+    border-color: #FFD700;
+    font-size: 1rem;
+    padding: 0.5rem 1.5rem;
+    border-radius: 50px;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-submit:hover {
+    background-color: #FFC700;
+    border-color: #FFC700;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.875rem;
+    color: #666;
+}
+
+/* Table Styles */
+.table {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table th, .table td {
+    vertical-align: middle;
+    font-size: 1rem;
+    color: #333;
+    border-color: #eee;
+}
+
+.table thead th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+
+.table tfoot th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+
+/* Chart Styles */
+canvas {
+    margin-top: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .carousel-item img {
+        height: 300px;
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+}
